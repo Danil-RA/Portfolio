@@ -5,10 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const links = [
   { label: "Home", to: "/" },
   { label: "Projects", to: "/projects" },
-  { label: "Gallery", to: "/gallery" },
   { label: "Skills", to: "/skills" },
   { label: "Certificates", to: "/certificates" },
-  { label: "Blog", to: "/blog" },
   { label: "Resume", to: "/resume" },
   { label: "About Me", to: "/about" },
   { label: "Contact", to: "/contact" },
@@ -64,12 +62,12 @@ export default function Navbar() {
               color: "var(--accent)",
             }}
           >
-            KD
+            RA
           </motion.div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <h1 style={{ margin: 0, fontSize: 14 }}>Kunj Desai</h1>
+            <h1 style={{ margin: 0, fontSize: 14 }}>Danil R A</h1>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>
-              ML • AI • Developer
+              ML • AI • Full Stack • Developer
             </div>
           </div>
         </div>

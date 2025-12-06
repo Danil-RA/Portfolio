@@ -4,61 +4,36 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    title: '📚 Library Management System',
+    desc: 'A full-stack Library Management System built using the MERN stack, featuring book issue/return, user authentication, and efficient record management.',
+    ss: '/Library.png',
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    code: 'https://github.com/Danil-RA/Library-Management'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+    title: '♻️ AI-Based Waste Classification System',
+    desc: 'An AI-powered system that classifies waste into 10 categories using deep learning and transfer learning, enabling efficient and automated waste segregation.',
+    ss: '/Waste.png',
+    tech: ["Python", "TensorFlow", "Keras", "OpenCV", "MobileNetV2", "NumPy", "Matplotlib", "PIL", "Google Colab"],
+    code: 'https://github.com/HenokAnil/Project_Technoverse'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    title: '🌐 Integrated Service for Common People',
+    desc: 'A web‑portal that aggregates essential services (transportation, health, education, finance, government, housing) into a single user‑friendly platform, helping citizens easily find and access services',
+    ss: '/ELEOS.jpg',
+    tech: [
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "Handlebars",
+      "HTML",
+      "CSS",
+      "PostgreSQL"  // Backend database used for login and service‑provider data storage :contentReference[oaicite:4]{index=4}
+    ]
+    ,
+    code: 'https://github.com/AadarshNarayan/ELEOS'
   },
-  {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-  live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
-  },
-  {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
-  },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
-  }
+
 ]
 
 export default function Projects() {
@@ -159,7 +134,7 @@ export default function Projects() {
                   >
                     <Github size={14} /> Code
                   </motion.a>
-                  <motion.a
+                  {/* <motion.a
                     href={p.live}
                     target="_blank"
                     rel="noreferrer"
@@ -178,7 +153,7 @@ export default function Projects() {
                     }}
                   >
                     <ExternalLink size={14} /> Live
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </div>
             </motion.div>

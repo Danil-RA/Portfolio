@@ -56,25 +56,15 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation, and
-          creativity in technology.
+          Hi, I’m <strong>Danil R. A.</strong>, a passionate <strong>Computer Science Engineering student</strong> with a strong interest in <strong>full-stack development</strong>, <strong>AI</strong>, and <strong>data-driven technologies</strong>. I enjoy building practical solutions using the <strong>MERN stack</strong> and love working on projects that are efficient, user-focused, and impactful.
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with motion and
-          interaction, and finding ways to blend{" "}
-          <strong>artistic creativity</strong> with{" "}
-          <strong>technical precision</strong>. My goal is to build solutions
-          that not only perform — but also inspire.
+          With certifications in <strong>Machine Learning</strong> and <strong>Deep Learning</strong>, along with hands-on experience through programs like <strong>Intel® Unnati</strong>, I actively explore emerging technologies to strengthen my skills. I’m especially interested in creating systems that blend innovation with real-world applicability—whether in web development, AI, or data analytics.
         </p>
 
         <p>
-            4th-year B.Tech AI Engineering student with hands-on experience in ML & DL Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
-            impactful AI solutions.
+            Beyond academics, I’m a <strong>quick learner</strong>, <strong>problem solver</strong>, and <strong>team player</strong> who enjoys taking on challenges. I’m also a <strong>keyboardist</strong>, combining creativity with technical discipline. My goal is to grow as a versatile engineer who contributes meaningful solutions in the tech world.
         </p>
 
         {/* --- Education Section --- */}
@@ -131,7 +121,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.Tech in Artificial Intelligence and Data Science
+                  B.Tech in Computer Science and Engineering
                 </h4>
                 <p
                   style={{
@@ -139,13 +129,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>S.C.E.T (Sarvajanik University)</strong> — Surat,
-                  Gujarat
+                  <strong>MBCET (APJ Abdul Kalam Technological University)</strong> — Thiruvananthapuram,
+                  Kerala
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  4th Year (Pursuing) | GPA: 9.0
+                  3rd Year (Pursuing) | CGPA: 9.73
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>2023 – 2027</p>
               </div>
             </motion.div>
 
@@ -184,13 +174,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Ambika
-                  Niketan, Surat
+                  <strong>St. John's HSS Cheriyakolla</strong> — Karakonam
+                 , Thiruvananthapuram
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 78%
+                  Kerala State Board | Percentage: 97.9%
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2023</p>
               </div>
             </motion.div>
 
@@ -229,13 +219,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Surat,
-                  Gujarat
+                  <strong>Auxilium HSS</strong> — Vazhichal,
+                  Thiruvananthapuram
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 69%
+                  Kerala State Board | Percentage: 100%
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2021</p>
               </div>
             </motion.div>
           </div>

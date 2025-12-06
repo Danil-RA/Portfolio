@@ -11,24 +11,23 @@ import linkedinLogo from '../../public/linkedin.png'
 import gmailLogo from '../../public/gmail.png'
 import whatsappLogo from '../../public/whatsapp.png'
 import instagramLogo from '../../public/insta.png'
-import facebookLogo from '../../public/facebook.png'
+
 
 export default function Home() {
   const professions = [
     'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
-    'Computer Vision Researcher',
+    'MERN Stack',
+    "Tech Student",
+    'Problem Solver',
     'Developer',
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'mailto:kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/Danil-RA' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/danil-r-a-04b579291/' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:danilraaa07@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918300204549' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/_danil_r_a/' },
   ]
 
   return (
@@ -62,7 +61,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Danil R A"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -85,13 +84,13 @@ export default function Home() {
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
               className="home-name"
             >
-              Kunj Desai
+              Danil R A
             </motion.span>
           </h1>
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech Explorer
+            Full Stack Developer | Tech Explorer
           </p>
 
           {/* Profession Tags */}
@@ -106,9 +105,9 @@ export default function Home() {
           {/* Info Cards */}
           <motion.div className="info-cards">
             {[
-              { label: '📍 Location', value: 'Surat, Gujarat, India' },
-              { label: '💼 Expertise', value: 'AI/ML, Problem Solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📍 Location', value: 'Thiruvananthapuram, Kerala, India' },
+              { label: '💼 Expertise', value: 'Full Stack, Problem Solving' },
+              { label: '📧 Contact', value: 'danilraaa07@gmail.com' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>

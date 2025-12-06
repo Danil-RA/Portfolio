@@ -5,50 +5,88 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Flipkart Hackathon",
-      org: "Flipkart",
-      date: "2022",
-      img: "/certs/flipkart.jpg",
-      link: "/certs/flipkart.jpg",
-    },
-    {
-      title: "Solution Challenge",
-      org: "Google Developers",
-      date: "2023",
-      img: "/certs/hack2skill.png",
-      link: "/certs/hack2skill.png",
-    },
-    {
-      title: "ADira",
-      org: "SCET AI Club",
+      title: "Deep Learning - IIT Ropar",
+      org: "NPTEL",
       date: "2025",
-      img: "/certs/adira.png",
-      link: "/certs/adira.png",
+      img: "/certs/Deep_Learning.jpg",
+      link: "/certs/Deep_Learning.jpg",
     },
-  ],
-  other: [
     {
-      title: "codathon",
-      org: "SCET tech fest",
+      title: "Machine Learning and Deep Learning - Fundamentals and Applications",
+      org: "NPTEL",
       date: "2025",
-      img: "/certs/codathon.png",
-      link: "/certs/codathon.png",
+      img: "/certs/Machine_Learning.jpg",
+      link: "/certs/Machine_Learning.jpg",
     },
-    {
-      title: "bugbuzz",
-      org: "SCET tech fest",
+      {
+      title: "MongoDB Indexing Design Fundamentals",
+      org: "MongoDB",
       date: "2025",
-      img: "/certs/bugbuzz.png",
-      link: "/certs/bugbuzz.png",
+      img: "/certs/MongoDB.jpg",
+      link: "/certs/MongoDB.jpg",
+    },
+     {
+      title: "Agentic AI: From Learner to Builder – Become an AI Agent Architect.",
+      org: "IBM SkillsBuild",
+      date: "2025",
+      img: "/certs/IBM.jpg",
+      link: "/certs/IBM.jpg",
     },
     {
-      title: "Dataloom",
-      org: "SCET",
+      title: "Exploring Survey Data on Health Care",
+      org: "NPTEL",
+      date: "2025",
+      img: "/certs/Health_Care.jpg",
+      link: "/certs/Health_Care.jpg",
+    },
+       {
+      title: "Full Stack Development(MERN)",
+      org: "ICT",
       date: "2024",
-      img: "/certs/dataloom.png",
-      link: "/certs/dataloom.png",
+      img: "/certs/ICT.jpg",
+      link: "/certs/ICT.jpg",
     },
+    {
+      title: "Intel® Unnati Industrial Training 2024",
+      org: "Intel®",
+      date: "2024",
+      img: "/certs/Intel.jpg",
+      link: "/certs/Intel.jpg",
+    },
+  
+    {
+      title: "Python For Data Science",
+      org: "NPTEL",
+      date: "2024",
+      img: "/certs/Data_Science.jpg",
+      link: "/certs/Data_Science.jpg",
+    },
+    {
+      title: "Python (Basic)",
+      org: "HackerRank",
+      date: "2024",
+      img: "/certs/Python_Basic.png",
+      link: "/certs/Python_Basic.png",
+    },
+    {
+      title: "Problem Solving (Basic)",
+      org: "HackerRank",
+      date: "2024",
+      img: "/certs/Problem_Solving.png",
+      link: "/certs/Problem_Solving.png",
+    },
+     {
+      title: "Programming, Data Structures and Algorithms using Python",
+      org: "NPTEL",
+      date: "2024",
+      img: "/certs/Algorithm.jpg",
+      link: "/certs/Algorithm.jpg",
+    },
+    
+
+    
   ],
+  
 };
 
 export default function Certificates() {
@@ -60,12 +98,12 @@ export default function Certificates() {
       <div className="card" style={{ background: "#111", borderRadius: 12, padding: 24 }}>
         <h2 style={{ fontSize: "1.8rem", color: "#fff", marginBottom: 4 }}>Certificates 🏅</h2>
         <p className="lead" style={{ color: "#aaa" }}>
-          Explore my certifications — technical & others.
+          Explore my certifications — technical.
         </p>
 
         {/* Tabs */}
         <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
-          {["tech", "other"].map((t) => (
+          {["tech"].map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
@@ -92,7 +130,7 @@ export default function Certificates() {
           style={{
             marginTop: 28,
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            //gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
             gap: 20,
           }}
         >
